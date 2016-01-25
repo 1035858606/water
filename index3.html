@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /> <meta http-equiv="Pragma" content="no-cache" /> <meta http-equiv="Expires" content="0" />
+
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="pragma" content="no-cache"/>
+    <meta http-equiv="expires" content="0"/>
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index3.css">
+	<title>抽奖</title>
+</head>
+<body>
+	<div id="wrap">
+		<div id="head">
+			<img src="award/head.png" alt="">
+				<div class="input">
+					<img src="award/w.png" alt="">
+					<input type="text">
+				</div>
+				<div class="btn">
+					<img src="award/btn.png" alt="">
+				</div>
+				<div class="b">
+					<img src="award/b.png" alt="">
+				</div>
+		</div>
+		<div class="h">
+			<img src="award/h.png" alt="">
+				<div class="h1">
+					<img src="award/h1.png" alt="">
+				</div>
+		</div>
+	</div>
+  <script src="js/zepto.min.js"></script>
+  <script>
+  	$(".b").tap(function  () {
+  		
+  		$(".h").css({
+  			display:"block"
+  		})
+   		$("#head").css({
+  			display:"none"
+  		}) 		
+  	})
+  	$(".h1").tap(function  () {
+  		
+  		$(".h").css({
+  			display:"none"
+  		})
+   		$("#head").css({
+  			display:"block"
+  		}) 		
+  	})
+  </script>	
+</body>
+</html>

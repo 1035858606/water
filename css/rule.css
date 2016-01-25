@@ -1,0 +1,23 @@
+html,body{
+	width: 100%;
+	height: 100%;	
+}
+img{
+	width: 100%;
+}
+#wrap{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-image: url(../images/bg.jpg);
+	position: 100% 100%;
+}
+#bg{
+	position: absolute;
+}
+.x{
+	width: 9.00225056264066%;
+	position: absolute;
+	top: 11.34751773049645%;
+	left: 76.36909227306827%;
+}

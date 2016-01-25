@@ -1,0 +1,575 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+img{
+	width: 100%;
+}
+
+#loading{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #52c3f1
+
+}
+#loading div{
+	position: absolute;
+	right: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	width: 100%;
+	height: 100%;
+	color: white
+}
+#loading span{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -30px;
+	margin-top: -30px;
+
+}
+.swiper-wrapper{
+	width: 100%;
+	height: 100%;
+
+}
+.swiper-button-prev{
+	top: 37%;
+	left: 4.545454545454545%;
+	width: 7.351837959489872%;
+	background-image: url(../images/zj.png);
+}
+.swiper-button-next{
+	top: 37%;
+	right: 4.545454545454545%;
+	width: 7.351837959489872%;
+	background-image: url(../images/yj.png);
+}
+.p1name{
+	position: absolute;
+	width: 15.67891972993248%;
+	top: -5.765407554671968%;
+	left: 18.75468867216804%;
+}
+.p1xing{
+	position: absolute;
+	width: 10.12753188297074%;
+	top: 11.0337972166998%;
+	left: 15.60390097524381%;	
+}
+.person1{
+	position: absolute;
+	top: 13.73106060606061%;
+	width: 100%;
+	left: 0;
+		z-index: 5;
+}
+.p1xx{
+	width: 15.9039759939985%;
+	position: absolute;
+	top: 71.57057654075547%;
+	left: 11.40285071267817%
+}
+.p1xing2{
+	width: 8.702175543885971%;
+	position: absolute;
+	top: 64.11530815109344%;
+	right: 13.05326331582896%;
+}
+.p1ping{
+	width: 17.70442610652663%;
+	position: absolute;
+	top: 77.23658051689861%;
+	right: 9.00225056264066%;
+	z-index: 5;
+}
+.p1wenzi{
+	width: 65.19129782445611%;
+	position: absolute;
+	top:113.817097415507%;
+	left: 17.55438859714929%;
+
+}
+.p1btn{
+	width: 33.30832708177044%;
+	position: absolute;
+bottom: 5.965909090909091%;
+	left: 33.45836459114779%;
+
+}
+
+/*第二个*/
+.p2name{
+	position: absolute;
+	width: 16.35408852213053%;
+	top: 13.24611610793132%;
+	right: 11.70292573143286%;
+}
+.p2xing{
+	position: absolute;
+	width: 7.651912978244561%;
+	top: 14.22730989370401%;
+	left: 15.00375093773443%;	
+}
+.person2{
+	position: absolute;
+	top: 11.22159090909091%;
+	width: 100%;
+	left: 0;
+		z-index: 5;
+}
+.p25{
+	width: 14.62865716429107%;
+	position: absolute;
+	top: 64.90351594439902%;
+	left: 13.72843210802701%
+}
+.p24{
+	width: 8.102025506376594%;
+	position: absolute;
+	top: 52.24856909239575%;
+	right: 24.23105776444111%
+}
+.p2xing2{
+	width: 8.702175543885971%;
+	position: absolute;
+	top: 29.21440261865794%;
+	right: 20.40510127531883%;
+}
+.p2ping{
+	width: 17.70442610652663%;
+	position: absolute;
+	top: 81.82910874897792%;
+	left: 14.85371342835709%;
+	z-index: 5;
+}
+.p2wenzi{
+	width: 65.19129782445611%;
+	position: absolute;
+	top:104.5789043336059%;
+	left: 23.63090772693173%;
+
+}
+.p2btn{
+	width: 33.30832708177044%;
+	position: absolute;
+bottom: 5.918560606060606%;
+	left: 33.45836459114779%;
+
+}
+/*第3个*/
+.p3name{
+	position: absolute;
+	width: 15.75393848462116%;
+	top: 83.65145228215768%;
+	left: 17.10427606901725%;
+}
+.p3xing{
+	position: absolute;
+	width: 10.05251312828207%;
+	top: 20.4149377593361%;
+	right: 12.15303825956489%;	
+}
+.person3{
+	position: absolute;
+	top: 12.59469696969697%;
+	width: 100%;
+	left: 0;
+	z-index: 5;
+}
+.p35{
+	width:14.0285071267817%;
+	position: absolute;
+	top: 58.7551867219917%;
+	left: 21.60540135033758%
+}
+.p34{
+	width: 7.726931732933233%;
+	position: absolute;
+	top: 60.74688796680498%;
+	right: 13.95348837209302%
+}
+.p3xing2{
+	width: 8.702175543885971%;
+	position: absolute;
+	top: 29.21440261865794%;
+	right: 20.40510127531883%;
+}
+.p3ping{
+	width: 16.72918229557389%;
+	position: absolute;
+	top: 76.43153526970954%;
+	right: 20.55513878469617%;
+	z-index: 5;
+}
+.p3wenzi{
+	width: 51.08777194298575%;
+	position: absolute;
+	top:105.0622406639004%;
+	left: 25.8814703675919%;
+
+}
+.p3btn{
+	width: 33.30832708177044%;
+	position: absolute;
+	bottom: 5.918560606060606%;
+	left: 33.45836459114779%;
+
+}
+/*第4个*/
+.p4name{
+	position: absolute;
+	width: 15.75393848462116%;
+	top: 62.45704467353952%;
+	left: 15.9039759939985%;
+}
+.p4xing{
+	position: absolute;
+	width: 10.05251312828207%;
+	top: 11.08247422680412%;
+	right: 12.37809452363091%;	
+}
+.person4{
+	position: absolute;
+	top: 13.54166666666667%;
+	width: 100%;
+	left: 0;
+	z-index: 5;
+}
+.p45{
+	width:16.95423855963991%;
+	position: absolute;
+	top: 11.08247422680412%;
+	left:11.55288822205551%
+}
+.p44{
+	width:9.827456864216054%;
+	position: absolute;
+	top: 75.78006872852234%;
+	right: 18.00450112528132%
+}
+.p4xing2{
+	width: 8.702175543885971%;
+	position: absolute;
+	top: 29.21440261865794%;
+	right: 20.40510127531883%;
+}
+.p4ping{
+	width: 18.52963240810203%;
+	position: absolute;
+	top: 79.43153526970954%;
+	left:14.77869467366842%;
+	z-index: 5;
+}
+.p4wenzi{
+	width:59.5648912228057%;
+	position: absolute;
+	top:107.9896907216495%;
+	left: 22.50562640660165%;
+
+}
+.p4btn{
+	width: 33.30832708177044%;
+	position: absolute;
+	bottom: 5.918560606060606%;
+	left: 33.45836459114779%;
+
+}
+
+/*第5个*/
+.p5name{
+	position: absolute;
+	width: 15.30382595648912%;
+	top: 12.09677419354839%;
+	right: 10.12753188297074%;
+}
+.p5xing{
+	position: absolute;
+	width: 8.177044261065266%;
+	top: 52.09677419354839%;
+	right:19.50487621905476%;	
+}
+.person5{
+	position: absolute;
+	top: 13.54166666666667%;
+	width: 100%;
+	left: 0;
+	z-index: 5;
+}
+.p55{
+	width:10.65266316579145%;
+	position: absolute;
+	top: -2%;
+	left:21.75543885971493%
+}
+.p54{
+	width:15.15378844711178%;
+	position: absolute;
+	top: 56.45161290322584%;
+	left:9.752438109527382%
+}
+.p5xing2{
+	width: 8.702175543885971%;
+	position: absolute;
+	top: 29.21440261865794%;
+	right: 20.40510127531883%;
+}
+.p5ping{
+	width: 18.15453863465866%;
+	position: absolute;
+	top: 69.48387096774194%;
+	left:21.8304576144036%;
+	z-index: 5;
+}
+.p5wenzi{
+	width:49.13728432108027%;
+	position: absolute;
+	top:102.258064516129%;
+	left: 27.00675168792198%;
+
+}
+.p5btn{
+	width: 33.30832708177044%;
+	position: absolute;
+	bottom: 5.918560606060606%;
+	left: 33.45836459114779%;
+
+}
+/*第6个*/
+.p6name{
+	position: absolute;
+	width: 9.077269317329332%;
+	top: 62.53968253968254%;
+	left: 19.53038259564891%;
+}
+.p6xing{
+	position: absolute;
+	width: 12.15303825956489%;
+	top: 24.12698412698413%;
+	right:16.50412603150788%;	
+}
+.person6{
+	position: absolute;
+	top: 11.83712121212121%;
+	width: 100%;
+	left: 0;
+	z-index: 5;
+}
+.p64{
+	width:10.27756939234809%;
+	position: absolute;
+	top: 3%;
+	left:18.00450112528132%
+}
+.p65{
+	width:12.07801950487622%;
+	position: absolute;
+	top: 74.20634920634921%;
+	right:18.45461365341335%
+}
+.p6xing2{
+	width: 8.702175543885971%;
+	position: absolute;
+	top: 29.21440261865794%;
+	right: 20.40510127531883%;
+}
+.p6ping{
+	width: 16.50412603150788%;
+	position: absolute;
+	top: 69.36507936507937%;
+	left:21.53038259564891%;
+	z-index: 5;
+}
+.p6wenzi{
+	width:65.4913728432108%;
+	position: absolute;
+	top:104.6031746031746%;
+	left: 18.8%;
+
+}
+.p6btn{
+	width: 33.30832708177044%;
+	position: absolute;
+	bottom: 5.918560606060606%;
+	left: 33.45836459114779%;
+
+}
+/*第7个*/
+.p7name{
+	position: absolute;
+	width: 9.902475618904726%;
+	top: 3%;
+	left: 21.15528882220555%;
+}
+.p7xing{
+	position: absolute;
+	width: 12.45311327831958%;
+	top:16.41666666666667%;
+	right:14.70367591897974%;	
+}
+.person7{
+	position: absolute;
+	top: 13.49431818181818%;
+	width: 100%;
+	left: 0;
+	z-index: 5;
+}
+.p74{
+	width:10.27756939234809%;
+	position: absolute;
+	top: 22.08333333333333%;
+	left:15.9039759939985%
+}
+.p75{
+	width:8.102025506376594%;
+	position: absolute;
+	top: 69.33333333333333%;
+	right:19.05476369092273%
+}
+.p7xing2{
+	width: 8.102025506376594%;
+	position: absolute;
+	top: 76.16666666666667%;
+	left: 20.55513878469617%;
+}
+.p7ping{
+	width: 12.22805701425356%;
+	position: absolute;
+	top: 83.58333333333333%;
+	left:73.56714178544636%;
+	z-index: 5;
+}
+.p7wenzi{
+	width:58%;
+	position: absolute;
+	top:104.4166666666667%;
+	left: 24.90622655663916%;
+
+}
+.p7btn{
+	width: 33.30832708177044%;
+	position: absolute;
+	bottom: 5.918560606060606%;
+	left: 33.45836459114779%;
+
+}
+
+.person8{
+	position: absolute;
+	top: 11.49431818181818%;
+	width: 100%;
+	left: 0;
+	z-index: 5;
+}
+.person9{
+	position: absolute;
+	top: 11.49431818181818%;
+	width: 100%;
+	left: 0;	
+	.z-index: 5;
+}
+.p91{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.person10{
+	position: absolute;
+	top: 11.49431818181818%;
+	width: 100%;
+	left: 0;	
+	.z-index: 5;
+}
+.p10{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.person11{
+	position: absolute;
+	top: 11.49431818181818%;
+	width: 100%;
+	left: 0;	
+	.z-index: 5;
+}
+.p11{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.person12{
+	position: absolute;
+	top: 11.49431818181818%;
+	width: 100%;
+	left: 0;	
+	.z-index: 5;
+}
+.p12{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.person13{
+	position: absolute;
+	top: 11.49431818181818%;
+	width: 100%;
+	left: 0;	
+	.z-index: 5;
+}
+.p13{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.person14{
+	position: absolute;
+	top: 11.49431818181818%;
+	width: 100%;
+	left: 0;	
+	.z-index: 5;
+}
+.p14{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+@media screen and (max-height: 480px){
+.p1btn{
+
+	bottom: 2%;
+}
+}
+/*.p2wenzi {
+
+    top: 99.578904%;
+   
+}
+.p3wenzi{
+
+	top:101.062241%;
+
+
+}
+.p3ping{
+
+	top: 72.431535%;
+
+}
+.p7wenzi {
+
+    top: 98.416667%;
+
+}
+.p7ping {
+
+    top: 78.583333%;
+
+}*/

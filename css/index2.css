@@ -1,0 +1,271 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+img{
+	width: 100%;
+}
+@font-face{
+ font-family: "HUM521L";
+ src:url(../myfont.ttf);
+
+}
+
+#loading{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #52c3f1
+
+}
+#loading div{
+	position: absolute;
+	right: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	color:white;
+	font-size: 30px;
+	width: 100%;
+	height: 100%;
+	color: white
+}
+#loading span{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -30px;
+	margin-top: -30px;
+
+}
+#wrap{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-image: url(../images/bg2.jpg);
+	background-size: 100% 100%;
+	display: none;
+}
+#person{
+
+	width: 100%;
+	position: relative;
+	top: 15%;
+	display: block;
+}
+.head{
+	width: 100%;
+position: absolute;
+	left: 0;
+	top:0;
+	z-index: 2;
+
+}
+.headhover{
+	 -webkit-animation-name:headhovers;
+	 animation-name:headhovers;
+	 -webkit-animation-duration:5s;
+		animation-duration:1s;
+}
+.tap{
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	width: 20%;
+	height: 80px;
+	z-index: 10;
+}
+.foot{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.m{
+	width: 100%;
+	position: absolute;
+	z-index: 9;
+}
+.m20{
+	width: 34.65866466616654%;
+	position: absolute;
+	left: 5.251312828207052%;
+	z-index: 9;
+	display: none;
+}
+.m15{
+	position: absolute;
+	z-index: 9;
+	display: none;
+}
+.m10{
+	position: absolute;
+	z-index: 9;
+	display: none;
+}
+.m5{
+	position: absolute;
+	z-index: 9;
+	display: none;
+}
+.m0{
+	position: absolute;
+	z-index: 9;
+	display: none;
+}
+.shou{
+	position: absolute;
+	z-index: 11;
+
+}
+.t{
+
+	position: absolute;
+	top:-10%;
+	z-index: 8;	
+	display: none;
+}
+.t img{
+
+}
+.ping{
+	position: absolute;
+	z-index: 9;	
+}
+.w{
+	position: absolute;
+	z-index: 8;	
+}
+.w p{
+	position: absolute;
+	bottom: 1%;
+	left: 62%;
+	color: #1084c8;
+}
+
+ @-webkit-keyframes headhovers
+        {
+            0%{transform:rotate(5deg)}
+           
+            100%{transform:rotate(0deg)}
+        }
+keyframes headhovers
+        {
+            0%{transform:rotate(5deg)}
+           
+            100%{transform:rotate(0deg)}
+        }
+/*        div
+        {
+            width:100px;
+            height:100px;
+            background-color:red;
+            -webkit-animation-name:mytransform;
+            -webkit-animation-duration:5s;
+            -webkit-animation-timing-function:linear;
+        }
+*/
+
+.res{
+	height: 100%;
+	display: none;
+}
+.mian{
+	position:relative;
+	top: 38.58901515151515%;
+}
+
+.reshead{
+	position: absolute;
+	top: -82.61971830985915%;
+
+}
+.refoot{
+	width: 42.53563390847712%;
+	position: absolute;
+	top:118.1924882629108%;
+	left: 28.50712678169542%
+}
+.span {
+	width: 100%;
+    position: absolute;
+/*    left: 15%;*/
+    color: #1084c8;
+    top: -72.619718%;
+    font-size: 30px;
+    font-family: "HUM521L";
+    z-index: 9;
+    text-align: center;
+}
+.span1{
+	position: absolute;
+	left: 40.96249062265566%;
+	top: -30%;
+	width: 7.501875468867217%;
+	z-index: 5
+
+}
+.span2{
+	position: absolute;
+	left: 46.25881470367592%;
+	top: -30%;
+	width: 7.501875468867217%;
+	z-index: 5
+}
+.span3{
+	position: absolute;
+	left: 52.25881470367592%;
+	top: -30%;
+	width: 7.501875468867217%;
+	z-index: 5
+
+}
+#loading{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #52c3f1
+
+}
+#loading div{
+	position: absolute;
+	right: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	color:white;
+	font-size: 30px;
+	width: 100%;
+	height: 100%;
+	color: white
+}
+#loading span{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -30px;
+	margin-top: -30px;
+
+}
+
+
+
+
+
+
+@media screen and (max-height: 480px){
+.ping img{
+	width: 95%;
+}
+.w img{
+	width: 95%;
+}
+.w p{
+	position: absolute;
+	bottom: 1%;
+	left: 58%;
+}
+
+}

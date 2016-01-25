@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /> <meta http-equiv="Pragma" content="no-cache" /> <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="pragma" content="no-cache"/>
+    <meta http-equiv="expires" content="0"/>
+
+	<link rel="stylesheet" href="css/base.css">
+<!-- 	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/animate.min.css"> -->
+	 <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/index.css">
+
+	<title>水生活</title>
+	<style>
+
+	</style>
+</head>
+<body>
+
+
+
+	<div id="wrap">
+			<div class="logo">
+				<img src="images/logo.png" alt="">
+			</div>
+		<div class="yun">
+			<img src="images/yunbg.png" alt="">
+			<div class="wenzi animated rubberBand">
+				<img src="images/wen.png" alt="">
+			</div>
+			<div class="ping animated bounceInLeft" >
+				<img src="images/ping.png" alt="">
+			</div>
+			<div class="person">
+					<div class="r1 animated bounceInDown">
+						<img src="images/r1.png" alt="">
+					</div>
+					<div class="r2 animated bounceInDown">
+						<img src="images/r2.png" alt="">
+					</div>
+
+					<div class="r3 animated bounceInDown">
+						<img src="images/r3.png" alt="">
+					</div>	
+					<div class="r4 animated bounceInDown" >
+						<img src="images/r4.png" alt="">
+					</div>
+					
+					<div class="r5 animated bounceInDown">
+						<img src="images/r5.png" alt="">
+					</div>				
+			</div>
+			<div class="btn">
+				<a href="select.html">
+					<img src="images/btn.png" alt="">
+				</a>
+			</div>	
+			<div class="btn1">
+				<img src="images/btn1.png" alt="">
+			</div>				
+		</div>			
+	</div>
+	<div id="rule">
+		<div id="bg">
+			<img src="images/rule_bg.png" alt="">
+		</div>
+		<div class="x">
+				<img src="images/rule_x.png" alt="">
+		</div>
+	</div>
+
+	<div id="loading">
+		<div>
+			<span>0%</span>
+		</div>
+	</div>
+	<script src="js/zepto.min.js"></script>
+   <script src="js/swiper.min.js"></script>
+   <script src="js/swiper.animate1.0.2.min.js"></script>
+
+
+ <script>
+
+  		var loading = document.getElementById('loading');
+        var span = loading.getElementsByTagName('span')[0];
+
+        var imgs = ["bg.jpg","btn.png","p1.png","p2.png","p3.png","p4.png","p5.png","p6.png","yunbg.png","logo.png","ping.png","btn1.png","rule_bg.png","rule_x.png"];
+        var index = 0;
+  for (var i = 0; i < imgs.length; i++) {
+
+                var img = new Image();
+               
+                img.src = "images/"+imgs[i];
+                img.onload = function  () {
+                     index++;
+
+                    var indexs = parseInt((index/imgs.length)*100);
+                    span.innerHTML = indexs+"%";
+
+// zhuyao
+	    if (index==imgs.length) {
+
+			 loading.style.display = "none";
+			 $("#wrap").css("display","block")
+
+
+					 // rule
+				$(".btn1").tap(function  () {
+		  		
+		  		$("#rule").css({
+		  			display:"block"
+		  		})
+		   		$("#wrap").css({
+		  			display:"none"
+		  		}) 		
+		  	})
+		  	$(".x").tap(function  () {
+		  		
+		  		$("#rule").css({
+		  			display:"none"
+		  		})
+		   		$("#wrap").css({
+		  			display:"block"
+		  		}) 		
+		  	})
+
+
+	    }
+	    // load 
+	}
+}
+ </script>
+
+</body>
+</html>
